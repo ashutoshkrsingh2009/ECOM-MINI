@@ -18,7 +18,7 @@ const navLinkStyle = ({ isActive }) =>
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         
         {/* Logo */}
-<h1 onClick={() => navigate("/")} className="cursor-pointer text-2xl sm:text-3xl font-extrabold text-pink-600 hover:text-pink-700 transition" > AsanShop </h1>
+<h1 onClick={() => navigate("/")} className="cursor-pointer text-2xl sm:text-3xl font-extrabold text-pink-600 hover:text-pink-700 transition" > AshAnShop </h1>
 
         {/* Navigation Links */}
         <div className="flex items-center gap-2 sm:gap-3">
