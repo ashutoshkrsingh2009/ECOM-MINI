@@ -156,35 +156,14 @@ const Landing = () => {
       Beauty
     </p>
   </div>
-
-  <div className="absolute right-28 -bottom-14 hidden rounded-3xl bg-white p-3 shadow-2xl transition hover:-translate-y-2 xl:block">
-    <img
-      src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
-      className="h-24 w-24 rounded-2xl object-cover"
-      alt=""
-    />
-    <p className="mt-2 text-center text-sm font-semibold text-pink-600">
-      Audio
-    </p>
-  </div>
-
-  <div className="absolute right-6 top-2 z-20 rounded-full bg-linear-to-r from-pink-500 to-rose-500 px-5 py-3 text-center text-white shadow-xl">
-    <h3 className="text-xl font-bold">50%</h3>
-    <p className="text-xs">OFF</p>
-  </div>
-
-  <div className="absolute `-bottom-8.75` z-20 rounded-2xl bg-white px-8 py-4 shadow-2xl">
-    <p className="text-sm text-gray-500">
-      ⭐ Trusted by
-    </p>
-    <h3 className="text-xl font-bold text-pink-600">
-      10,000+ Customers
-    </h3>
-          </div>
-
-        </div>
+ </div>
 
       </div>
+          <footer className="border-t border-white/20 bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-5">
+      <p className="text-center text-sm font-semibold tracking-wide text-black">
+        © 2026 AshAn • Made with ❤️
+      </p>
+    </footer>
     </section>
   );
 };
