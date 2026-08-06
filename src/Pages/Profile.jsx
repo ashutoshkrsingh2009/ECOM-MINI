@@ -10,7 +10,7 @@ const Profile = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-10">
+    <section className="min-h-screen bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-10">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
 
@@ -21,7 +21,7 @@ const Profile = () => {
 
           <h1 className="mt-4 text-4xl font-extrabold text-gray-900">
             Welcome
-            <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-pink-500 via-rose-500 to-fuchsia-600 bg-clip-text text-transparent">
               {" "}
               Back
             </span>
@@ -48,7 +48,7 @@ const Profile = () => {
                 {user.email}
               </p>
 
-              <button className="mt-6 w-full rounded-xl bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-600 py-3 font-semibold text-white shadow-lg transition duration-300 hover:scale-105 hover:shadow-pink-400">
+              <button className="mt-6 w-full rounded-xl bg-linear-to-r from-pink-500 via-rose-500 to-fuchsia-600 py-3 font-semibold text-white shadow-lg transition duration-300 hover:scale-105 hover:shadow-pink-400">
                 Edit Profile
               </button>
 
@@ -143,7 +143,7 @@ const Profile = () => {
 
               <div className="flex flex-wrap gap-4">
 
-                <button className="rounded-xl bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
+                <button className="rounded-xl bg-linear-to-r from-pink-500 via-rose-500 to-fuchsia-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
                   View Orders
                 </button>
 

@@ -30,7 +30,7 @@ const Cart = ({ cart, setCart }) => {
 
   if (cart.length === 0) {
     return (
-      <div className="flex h-[80vh] flex-col items-center justify-center bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200 px-4 text-center">
+      <div className="flex h-[80vh] flex-col items-center justify-center bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200 px-4 text-center">
         <h1 className="text-3xl font-bold text-pink-700 sm:text-4xl">
           🛒 Your Cart is Empty
         </h1>
@@ -43,7 +43,7 @@ const Cart = ({ cart, setCart }) => {
   }
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-10">
+    <section className="min-h-screen bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-10 text-center">
           <span className="rounded-full bg-pink-100 px-5 py-2 font-semibold text-pink-600 shadow">
@@ -52,7 +52,7 @@ const Cart = ({ cart, setCart }) => {
 
           <h1 className="mt-4 text-4xl font-extrabold text-gray-900">
             Order
-            <span className="bg-gradient-to-r from-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-pink-500 to-fuchsia-600 bg-clip-text text-transparent">
               {" "}
               Summary
             </span>
@@ -121,7 +121,7 @@ const Cart = ({ cart, setCart }) => {
 
                 <button
                   onClick={() => removeItem(item.id)}
-                  className="w-full rounded-xl bg-gradient-to-r from-red-500 to-pink-500 px-5 py-3 font-semibold text-white transition hover:scale-105 sm:h-fit sm:w-auto"
+                  className="w-full rounded-xl bg-linear-to-r from-red-500 to-pink-500 px-5 py-3 font-semibold text-white transition hover:scale-105 sm:h-fit sm:w-auto"
                 >
                   Remove
                 </button>
@@ -154,7 +154,7 @@ const Cart = ({ cart, setCart }) => {
               </span>
             </div>
 
-            <button className="mt-8 w-full rounded-xl bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-600 py-3 font-bold text-white shadow-lg transition duration-300 hover:scale-105 hover:shadow-pink-400">
+            <button className="mt-8 w-full rounded-xl bg-linear-to-r from-pink-500 via-rose-500 to-fuchsia-600 py-3 font-bold text-white shadow-lg transition duration-300 hover:scale-105 hover:shadow-pink-400">
               Proceed To Checkout
             </button>
           </div>

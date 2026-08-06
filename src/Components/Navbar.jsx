@@ -17,7 +17,6 @@ const navLinkStyle = ({ isActive }) =>
     <nav className="sticky top-0 z-50 border-b border-pink-200 bg-pink-50/90 backdrop-blur shadow-sm">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         
-        {/* Logo */}
 <div
   onClick={() => navigate("/")}
   className="flex items-center gap-2 cursor-pointer"

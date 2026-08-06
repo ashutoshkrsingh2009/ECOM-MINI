@@ -23,14 +23,14 @@ const Products = ({ cart, setCart }) => {
 
   if (data.length === 0) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200">
+      <div className="flex min-h-screen items-center justify-center bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200">
         <Loader />
       </div>
     );
   }
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-12">
+    <section className="min-h-screen bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-12">
 
 
       <div className="mx-auto mb-12 max-w-7xl px-6 text-center">
@@ -41,7 +41,7 @@ const Products = ({ cart, setCart }) => {
 
         <h1 className="mt-5 text-4xl font-extrabold text-gray-900 sm:text-5xl">
           Trending
-          <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-600 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-pink-500 via-rose-500 to-fuchsia-600 bg-clip-text text-transparent">
             {" "}
             Products
           </span>

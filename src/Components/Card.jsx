@@ -82,7 +82,7 @@ const Card = ({ info, cart, setCart }) => {
             mt-2
             w-full
             rounded-xl
-            bg-gradient-to-r
+            bg-linear-to-r
             from-pink-500
             via-rose-500
             to-fuchsia-500

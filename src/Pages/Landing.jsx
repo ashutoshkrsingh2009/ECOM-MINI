@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
-    <section className="relative min-h-[90vh] overflow-hidden bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200">
+    <section className="relative min-h-[90vh] overflow-hidden bg-linear-to-br from-pink-50 via-rose-100 to-fuchsia-200">
 
 
       <div className="absolute -left-20 top-0 h-72 w-72 rounded-full bg-pink-300 opacity-30 blur-3xl"></div>
@@ -22,7 +22,7 @@ const Landing = () => {
 
           <h1 className="mt-8 text-4xl font-extrabold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
             Discover Your
-            <span className="bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-pink-500 via-rose-500 to-fuchsia-600 bg-clip-text text-transparent">
               {" "}
               Perfect{" "}
             </span>
@@ -40,7 +40,7 @@ const Landing = () => {
 
             <Link
               to="/products"
-              className="rounded-2xl bg-gradient-to-r from-pink-500 to-rose-500 px-8 py-4 font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-pink-400"
+              className="rounded-2xl bg-linear-to-r from-pink-500 to-rose-500 px-8 py-4 font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-pink-400"
             >
               🛍 Shop Now
             </Link>
@@ -94,7 +94,7 @@ const Landing = () => {
 
         <div className="relative flex items-center justify-center">
 
-  <div className="absolute h-[420px] w-[420px] rounded-full bg-pink-300/40 blur-3xl"></div>
+  <div className="absolute `h-105` `w-105` rounded-full bg-pink-300/40 blur-3xl"></div>
 
   <img
     src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900"
@@ -168,12 +168,12 @@ const Landing = () => {
     </p>
   </div>
 
-  <div className="absolute right-6 top-2 z-20 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-5 py-3 text-center text-white shadow-xl">
+  <div className="absolute right-6 top-2 z-20 rounded-full bg-linear-to-r from-pink-500 to-rose-500 px-5 py-3 text-center text-white shadow-xl">
     <h3 className="text-xl font-bold">50%</h3>
     <p className="text-xs">OFF</p>
   </div>
 
-  <div className="absolute bottom-[-35px] z-20 rounded-2xl bg-white px-8 py-4 shadow-2xl">
+  <div className="absolute `-bottom-8.75` z-20 rounded-2xl bg-white px-8 py-4 shadow-2xl">
     <p className="text-sm text-gray-500">
       ⭐ Trusted by
     </p>
