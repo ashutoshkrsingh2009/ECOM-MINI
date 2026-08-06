@@ -35,7 +35,7 @@ const Profile = () => {
             <div className="flex flex-col items-center">
 
               <img
-                src="https://ui-avatars.com/api/?name=Ashutosh+Kr+Singh&background=ec4899&color=fff&size=256"
+                src="/aaa.png?name=Ashutosh+Kr+Singh&background=ec4899&color=fff&size=256"
                 alt="Profile"
                 className="h-32 w-32 rounded-full border-4 border-pink-300 shadow-lg"
               />

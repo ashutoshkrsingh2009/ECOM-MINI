@@ -97,14 +97,14 @@ const Landing = () => {
   <div className="absolute `h-105` `w-105` rounded-full bg-pink-300/40 blur-3xl"></div>
 
   <img
-    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900"
+    src="/watch.jpeg"
     alt="Main Product"
     className="relative z-10 w-full max-w-sm rounded-[35px] border-4 border-white shadow-[0_30px_70px_rgba(236,72,153,0.35)] transition duration-500 hover:scale-105"
   />
 
   <div className="absolute left-0 top-4 hidden rounded-3xl bg-white p-3 shadow-2xl transition hover:-translate-y-2 lg:block">
     <img
-      src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400"
+      src="/dress.jpeg"
       className="h-28 w-28 rounded-2xl object-cover"
       alt=""
     />
@@ -115,7 +115,7 @@ const Landing = () => {
 
   <div className="absolute -right-6 top-8 hidden rounded-3xl bg-white p-3 shadow-2xl transition hover:-translate-y-2 lg:block">
     <img
-      src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"
+      src="/shoe.jpeg"
       className="h-28 w-28 rounded-2xl object-cover"
       alt=""
     />
@@ -126,7 +126,7 @@ const Landing = () => {
 
   <div className="absolute -left-10 bottom-8 hidden rounded-3xl bg-white p-3 shadow-2xl transition hover:-translate-y-2 lg:block">
     <img
-      src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400"
+      src="/perfume.jpeg"
       className="h-28 w-28 rounded-2xl object-cover"
       alt=""
     />
@@ -137,7 +137,7 @@ const Landing = () => {
 
   <div className="absolute -right-8 bottom-10 hidden rounded-3xl bg-white p-3 shadow-2xl transition hover:-translate-y-2 lg:block">
     <img
-      src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
+      src="/mobile.jpeg"
       className="h-28 w-28 rounded-2xl object-cover"
       alt=""
     />
@@ -148,7 +148,7 @@ const Landing = () => {
 
   <div className="absolute left-28 -top-12 hidden rounded-3xl bg-white p-3 shadow-2xl transition hover:-translate-y-2 xl:block">
     <img
-      src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400"
+      src="/cosmetic.jpeg"
       className="h-24 w-24 rounded-2xl object-cover"
       alt=""
     />
