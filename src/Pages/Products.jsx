@@ -32,7 +32,6 @@ const Products = ({ cart, setCart }) => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-100 to-fuchsia-200 py-12">
 
-      {/* Heading */}
 
       <div className="mx-auto mb-12 max-w-7xl px-6 text-center">
 
@@ -55,7 +54,6 @@ const Products = ({ cart, setCart }) => {
 
       </div>
 
-      {/* Product Grid */}
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 

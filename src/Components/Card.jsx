@@ -47,7 +47,6 @@ const Card = ({ info, cart, setCart }) => {
         hover:shadow-pink-300
       "
     >
-      {/* Product Image */}
       <div className="overflow-hidden">
         <img
           src={images[0]}
@@ -56,7 +55,6 @@ const Card = ({ info, cart, setCart }) => {
         />
       </div>
 
-      {/* Card Content */}
       <div className="flex flex-col gap-4 p-4 sm:p-5">
         <h2 className="line-clamp-1 text-lg font-bold text-gray-800 sm:text-xl">
           {title}
@@ -68,7 +66,6 @@ const Card = ({ info, cart, setCart }) => {
             : description}
         </p>
 
-        {/* Price & Rating */}
         <div className="flex items-center justify-between">
           <span className="text-xl font-bold text-pink-600 sm:text-2xl">
             ${price}
@@ -79,7 +76,6 @@ const Card = ({ info, cart, setCart }) => {
           </span>
         </div>
 
-        {/* Button */}
         <button
           onClick={addToCart}
           className="

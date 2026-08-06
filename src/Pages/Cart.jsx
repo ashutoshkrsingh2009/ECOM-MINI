@@ -61,7 +61,6 @@ const Cart = ({ cart, setCart }) => {
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
 
-          {/* Cart Items */}
 
           <div className="space-y-6 lg:col-span-2">
             {cart.map((item) => (
@@ -130,7 +129,6 @@ const Cart = ({ cart, setCart }) => {
             ))}
           </div>
 
-          {/* Order Summary */}
 
           <div className="h-fit rounded-3xl border border-pink-200 bg-white/90 p-6 shadow-xl backdrop-blur lg:sticky lg:top-24">
 
